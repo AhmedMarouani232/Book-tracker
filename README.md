@@ -1,4 +1,4 @@
-# Spring Boot Book Management API with JWT Authentication
+# Spring Boot Book Management
 
 A secure RESTful API for managing books, categories, users, and download statistics with JWT-based authentication and role-based authorization.
 
