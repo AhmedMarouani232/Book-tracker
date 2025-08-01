@@ -1,4 +1,4 @@
-# Spring Boot Book Management
+# Spring Boot Book Management - Backend
 
 A secure RESTful API for managing books, categories, users, and download statistics with JWT-based authentication and role-based authorization.
 
@@ -63,17 +63,25 @@ A secure RESTful API for managing books, categories, users, and download statist
 - **CLIENT**: Regular user with limited downloads
 - **CLIENTA**: Subscriber user with extended privileges
 
-## Setup
+# React Book Management - Frontend
+A React-based web application for managing books, users, and download statistics. Connects to a Spring Boot backend with JWT authentication.
 
-### Prerequisites
-- Java 17+
-- Maven 3.6+
-- MySQL 8.0+ (or your preferred database)
+## Features
+📚 Book management (add, view)
 
-### Configuration
-1. Update `application.properties` with your database credentials:
-   ```properties
-   spring.datasource.url=jdbc:mysql://localhost:3306/your_database
-   spring.datasource.username=your_username
-   spring.datasource.password=your_password
-   spring.jpa.hibernate.ddl-auto=update
+👥 User authentication (login/register)
+
+📊 Download statistics tracking
+
+🔐 Role-based access (Admin/Client)
+
+📥 File upload/download functionality
+
+## Technologies
+Frontend: React.js, Axios, React Router
+
+Styling: CSS (or your preferred framework)
+
+State Management: React Context/Hooks
+
+Authentication: JWT (via backend API)
